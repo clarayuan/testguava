@@ -9,13 +9,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-/**
- * Class whose sole reason for existence is to demonstrate Guava's Collections2
- * class.
- * 
- * @author Dustin
- * @see http://marxsoftware.blogspot.com/2011/10/filtering-and-transforming-java.html
- */
 public class GuavaCollections2 {
 
     /**
@@ -23,6 +16,7 @@ public class GuavaCollections2 {
      * 
      * @return Set of strings representing some programming languages.
      */
+
     private static Set<String> buildSetStrings() {
         final Set<String> strings = new HashSet<String>();
         strings.add("Java");
